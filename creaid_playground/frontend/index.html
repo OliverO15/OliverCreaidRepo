@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Creaid Playground</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Creaid Playground</h1>
+        <div id="settings">
+            <div class="numOfChapters">
+                <input type="radio" name="chapters" value="1" id="numChapters1" checked>
+                <label for="numChapters1">1</label>
+                <input type="radio" name="chapters" value="3" id="numChapters3" >
+                <label for="numChapters3">3</label>
+                <input type="radio" name="chapters" value="5" id="numChapters5" >
+                <label for="numChapters5">5</label>
+                <button id="changeNumChapters">Set</button>
+            </div>
+            <div id="chapterLengths">
+                <p>Chapter Length</p>
+                <input type="text" id="chapterLen" value="10">
+                <button id="changeChapterLen">Set</button>
+            </div>
+        </div>
+        <div class="container">
+            <div id="timeline_container">
+                <!-- Titles / Text -->
+                <div id="text_container" class="items_container">
+                    <h3 class="timelineLabel">Text</h3>
+                    <div id="textTimeline" class="timeline">
+                        <div class="item" id="title_0">
+                            <div class="title" style="background-color: #FFFF"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Transitions -->
+                <div id="transition_container" class="items_container">
+                    <h3 class="timelineLabel">Transition</h3>
+                    <div id="transitionTimeline" class="timeline">
+                    </div>
+                </div>
+                <!-- Videos -->
+                <div id="video_container" class="items_container">
+                    <h3 class="timelineLabel">Video</h3>
+                    <div id="videoTimeline" class="timeline">
+                        <div id="chapter_0" class="video_chapter">
+                            <div class="item" id="video_chapter_0">
+                                <div id="video"></div>
+                                <div id="video"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Line Break -->
+                <div id="line_break"></div>
+                <!-- Dropdowns with low, mid, high options -->
+                <div id="intensity_dropdown" class="items_container">
+                    <h3 class="timelineLabel">Intensity</h3>
+                    <div id="dropdownTimeline" class="timeline">
+                        <select name="intensity" id="intensity_dropdown_0" onchange="changeIntensity('0')">
+                            <option value="2">Low</option>
+                            <option value="3">Mid</option>
+                            <option value="4">High</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="json_container">
+            <pre id="json-display"></pre>
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+</html>
