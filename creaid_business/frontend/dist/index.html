@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creaid Business Suite</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <head><h1>Creaid Business</h1></head>
+    <div class="main">
+        <div class="config">
+            <div class="main_config">
+                <label for="type">Type</label>
+        
+                <select name="type" id="adType">
+                    <option value="season">Seasonal Sale</option>
+                    <option value="sale">Sale</option>
+                    <option value="new_product">New Product</option>
+                    <option value="brand">Brand</option>
+                </select>
+                
+                <label for="type">Product Type</label>
+        
+                <select name="productType" id="productType" onchange="getAvailableStyles()">
+                    <option value="fashion">Fashion</option>
+                    <option value="tech">Tech</option>
+                    <option value="food">Food</option>
+                    <option value="home_appliances">Home Appliances</option>
+                </select>
+
+                <label for="style">Style</label>
+        
+                <select name="style" id="adStyle" onchange="changeStyle()">
+                </select>
+        
+                <div class="uploadFolder">
+                    <p>Image Folder</p>
+                    <button id="upload" onclick="uploadImages()"><img src="assets/icons/cloud-computing.png" alt="upload_icon"></button>
+                    <button>FolderName</button>
+                
+                </div>
+                <button id="generateButton" onclick="generateVideo()">Generate</button>
+                
+            </div>
+            <div class="style_config">
+                <label for="mainColorPicker">Main Color:</label>
+                <input type="color" id="mainColorPicker" name="mainColorPicker" value="#ff0000" onchange="updateHexCode('main')">
+                <input type="text" id="mainColorHex" name="mainColorHex" value="#ff0000" oninput="updateColorPicker('main')"><br>
+                
+                <label for="secondaryColorPicker">Secondary Color:</label>
+                <input type="color" id="secondaryColorPicker" name="secondaryColorPicker" value="#00ff00" onchange="updateHexCode('secondary')">
+                <input type="text" id="secondaryColorHex" name="secondaryColorHex" value="#00ff00" oninput="updateColorPicker('secondary')"><br>
+                
+                <label for="textColorPicker">Text Color:</label>
+                <input type="color" id="textColorPicker" name="textColorPicker" value="#000000">
+                <input type="text" id="textColorHex" name="textColorHex" value="#000000">
+                
+            </div>
+        </div>
+        <div class="titles">
+            <h3>Titles</h3>
+            <textarea name="titles" id="title01" cols="30" rows="3" ></textarea>
+            <textarea name="titles" id="title02" cols="30" rows="3" ></textarea>
+            <textarea name="titles" id="title03" cols="30" rows="3" ></textarea>
+            <textarea name="titles" id="title04" cols="30" rows="3" ></textarea>
+        </div>
+        <div id="video_player">
+        </div>
+    </div>
+    <div class="videos_container">
+        <h3>Video</h3>
+        <div class="scenes">
+            <div class="draggableImage" id="draggable01">
+                <img src="https://res.cloudinary.com/dr5jfzcjp/image/upload/v1692715669/fashion/raf710790058_cwhite_v10020102wcf_10_a11odz.jpg" alt="man">
+            </div>
+            <div class="dropTarget"></div>
+            <div class="scene" id="scene02"></div>
+            <div class="scene" id="scene03"></div>
+            <div class="scene" id="scene04"></div>
+        </div>
+        <h3>Music</h3>
+        <select name="music" id="musicSelect">
+            <option value="song01">Untitled Song 1</option>
+            <option value="song02">Untitled Song 2</option>
+            <option value="song03">Untitled Song 3</option>
+        </select>
+    </div>
+    <div class="create">
+        <button id="createButton">Create!</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

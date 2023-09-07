@@ -1,0 +1,9 @@
+[
+    {
+        "type": "video",
+        "track": 3,
+        "duration": "3 s",
+        "mask_mode": "luma",
+        "speed": "150%"
+    }
+]

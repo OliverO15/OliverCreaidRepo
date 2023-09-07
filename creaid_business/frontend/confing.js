@@ -1,0 +1,7 @@
+// config.js
+export const ENV_VARS = {
+    CREATOMATE_API_KEY: "468b5d54950d46fc8ca16bb54fc25d16e422daeb6320f97c9d628a5da8ac14fe373a74c3c58ed4426eb2274f46b7e9f1",
+    NEXT_PUBLIC_VIDEO_PLAYER_TOKEN: "public-29s5yb0fh57o1e4mt3ljs0g6",
+    NEXT_PUBLIC_TEMPLATE_ID: "0e1768c6-884e-40b4-a6d1-1eb69ccf5624"
+  };
+  

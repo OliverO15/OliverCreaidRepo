@@ -1,0 +1,31 @@
+@mixin flexCenter($direction: row) {
+    display: flex;
+    flex-direction: $direction;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background: $primary-color;
+
+    h1 {
+        color: $secondary-color;
+        &:hover {
+            color: red;
+        }
+    }
+
+    form {
+        @include flexCenter(column);
+    }
+
+    input {
+        padding: 10px;
+        border: 1px solid $secondary-color;
+        border-radius: 5px;
+        &:focus {
+            outline: none;
+        }
+    }
+}

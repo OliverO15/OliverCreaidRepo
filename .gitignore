@@ -1,2 +1,9 @@
 /creaid_playground/frontend/node_modules/
 /creaid_playground/frontend/package-lock.json
+/creaid_business/frontend/node_modules/
+/creaid_business/frontend/package-lock.json
+/creaid_business/frontend/.env.local
+/creaid_business/backend/node_modules/
+/creaid_business/backend/package-lock.json
+/preview-pack/node_modules/
+/preview-pack/package-lock.json

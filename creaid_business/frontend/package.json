@@ -1,0 +1,28 @@
+{
+  "name": "creaid_business",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^4.0.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "@creatomate/preview": "^1.1.1",
+    "axios": "^1.4.0",
+    "creatomate": "^1.0.5",
+    "dotenv": "^16.3.1",
+    "interactjs": "^1.10.18",
+    "lodash": "^4.17.21",
+    "vite": "^4.3.9",
+    "webpack": "^5.88.2"
+  }
+}

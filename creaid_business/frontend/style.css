@@ -1,0 +1,170 @@
+body {
+    position: relative;
+}
+
+.main  {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.config {
+    padding: 1rem;
+    border: 2px solid #E9E9E9;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.main_config {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.style_config {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.titles {
+    padding: 1rem;
+    border: 2px solid #E9E9E9;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#video_player {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 614px;
+    height: 372px;
+    background-color: rgb(195, 195, 195);
+    border-radius: 10px;
+}
+
+#video_player img {
+    width: 100px;
+}
+
+select {
+    height: 25px;
+    width: 150px;
+    background-color: #D9D9D9;
+    color: #464646;
+    border: none;
+    border-radius: 5px;
+}
+
+#upload {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #D9D9D9;
+}
+
+#upload:hover {
+    background-color: #6b6b6b;
+    transition: 0.2s ease-in-out;
+}
+
+#upload img {
+    width: 30px;
+    height: 30px;
+}
+
+.create {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 2rem;
+}
+
+#createButton {
+    width: 10em;
+    height: 3em;
+    border: None;
+    border-radius: 10px;
+    color: #3C3C3C;
+    font-weight: bold;
+    font-size: large;
+    transition: 0.2s ease-in-out;
+}
+
+#createButton:hover {
+    color: #f0f0f0;
+    background-color: #6b6b6b;
+}
+
+#generateButton {
+    width: 9em;
+    height: 2em;
+    border: None;
+    border-radius: 10px;
+    color: #3C3C3C;
+    font-weight: bold;
+    font-size: medium;
+    transition: 0.2s ease-in-out;
+}
+
+#generateButton:hover {
+    color: #f0f0f0;
+    background-color: #6b6b6b;
+}
+
+.draggableImage {
+    width: 10%;
+    height: 6em;
+    margin: 1rem 0 0 1rem;
+    background-color: #29e;
+    color: white;
+    border-radius: 0.75em;
+    padding: 4%;
+    touch-action: none;
+    user-select: none;
+}
+
+.draggableImage img {
+    max-width: 100%;
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+    display: block; 
+}
+
+.dropTarget {
+    width: 20%;
+    height: 6em;
+    border: 1px dashed rgb(191, 191, 191);
+    border-radius: 10px;
+}
+
+.drop-active {
+    border-color: #aaa;
+}
+  
+.drop-target {
+background-color: #29e;
+border-color: #fff;
+border-style: solid;
+}
+
+.drag-drop {
+display: inline-block;
+min-width: 40px;
+padding: 2em 0.5em;
+margin: 1rem 0 0 1rem;
+
+color: #fff;
+background-color: #29e;
+border: solid 2px #fff;
+
+touch-action: none;
+transform: translate(0px, 0px);
+
+transition: background-color 0.3s;
+}
