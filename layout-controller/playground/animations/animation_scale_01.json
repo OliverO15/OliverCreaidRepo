@@ -1,0 +1,9 @@
+{
+  "time": "start",
+  "duration": "4.97 s",
+  "easing": "linear",
+  "type": "scale",
+  "fade": false,
+  "end_scale": "105%",
+  "start_scale": "100%"
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Playground</title>
+    <link rel="stylesheet" href="styles/css/style.css">
+</head>
+<body>
+    <h1>Layout Playground</h1>
+    <div class="config-container">
+        <div class="config-color config-group">
+            <h2>Color</h2>
+            <div class="config-color-container-item">
+                <label for="color-primary">Primary</label>
+                <input type="color" id="color-primary" value="#000000">
+            </div>
+            <div class="config-color-container-item">
+                <label for="color-secondary">Secondary</label>
+                <input type="color" id="color-secondary" value="#000000">
+            </div>
+        </div>
+        <div class="config-font config-group">
+            <h2>Font</h2>
+            <div class="config__font__container__item">
+                <label for="font-family">Font Family</label>
+                <select name="font-family" id="font-family">
+                </select>
+            </div>
+            <div class="config-color-container-item">
+                <label for="color-secondary">Font Color</label>
+                <input type="color" id="color-secondary" value="#000000">
+            </div>
+        </div>
+        <div class="config-media config-group">
+            <h2>Media</h2>
+        </div>
+    </div> 
+    <div class="preview">
+        <div id="container"></div>
+        <button class="btn-main" id="get-preview">Get Preview</button>
+    </div>
+    <div class="layout-container" id="layout-selection-container"></div>
+    <script type="module" src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+{
+    "name": "Layout 1",
+    "type": "composition",
+    "duration": "5 s",
+    "elements": [
+      {
+        "type": "image",
+        "track": 1,
+        "time": "0 s",
+        "duration": "7.5 s",
+        "x": "48.841%",
+        "y": "49.4908%",
+        "width": "102.2843%",
+        "height": "107.1414%"
+      },
+      {
+        "type": "text",
+        "track": 2,
+        "time": "0.5723 s",
+        "duration": "5 s",
+        "x": "6.7122%",
+        "y": "65.9573%",
+        "width": "22.668%",
+        "height": "22.6252%",
+        "x_anchor": "0%",
+        "y_anchor": "0%",
+        "y_alignment": "100%"
+      },
+      {
+        "type": "image",
+        "track": 3,
+        "time": "1 s",
+        "x": "88.3614%",
+        "y": "51.0706%",
+        "width": "36.6884%",
+        "height": "103.1281%"
+      }
+    ]
+}
