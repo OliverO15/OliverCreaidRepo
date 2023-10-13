@@ -1,0 +1,36 @@
+{
+    "type": "composition",
+    "duration": "5 s",
+    "elements": [
+      {
+        "type": "image",
+        "track": 1,
+        "time": "0 s",
+        "x": "84.3252%",
+        "y": "49.4623%",
+        "width": "40.0188%",
+        "height": "109.6774%"
+      },
+      {
+        "type": "image",
+        "track": 2,
+        "time": "0 s",
+        "x": "29.8359%",
+        "y": "49.4623%",
+        "width": "68.9599%",
+        "height": "109.6774%"
+      },
+      {
+        "type": "text",
+        "track": 3,
+        "time": "0 s",
+        "x": "77.1052%",
+        "y": "82.2668%",
+        "width": "36.764%",
+        "height": "18.7033%",
+        "x_alignment": "100%",
+        "y_alignment": "100%",
+        "font_size_maximum": "8.1 vmin"
+      }
+    ]
+  }

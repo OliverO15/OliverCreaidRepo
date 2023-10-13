@@ -1,0 +1,55 @@
+{
+    "id": 5,
+    "name": "side-w-box-bottom",
+    "text_count": 1,
+    "media_count": 2,
+    "preview_img": "\"\"",
+    "json_data": {
+        "type": "composition",
+        "duration": "5 s",
+        "elements": [
+            {
+                "type": "image",
+                "track": 1,
+                "time": "0 s",
+                "x": "30.191%",
+                "y": "33.3333%",
+                "width": "69.0511%",
+                "height": "76.344%"
+            },
+            {
+                "type": "image",
+                "track": 2,
+                "time": "0 s",
+                "x": "84.6804%",
+                "width": "39.9276%",
+                "height": "109.6774%"
+            },
+            {
+                "type": "shape",
+                "track": 3,
+                "time": "0 s",
+                "duration": "5 s",
+                "x": "32.3583%",
+                "y": "84.6774%",
+                "width": "64.7165%",
+                "height": "30.6451%",
+                "x_anchor": "50%",
+                "y_anchor": "50%",
+                "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z"
+            },
+            {
+                "type": "text",
+                "track": 4,
+                "time": "0 s",
+                "x": "23.9567%",
+                "y": "84.6774%",
+                "width": "40.3931%",
+                "height": "18.7033%",
+                "y_alignment": "50%",
+                "font_size_maximum": "8.1 vmin"
+            }
+        ]
+    },
+    "category": "advert"
+}

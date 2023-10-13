@@ -1,0 +1,614 @@
+{
+    "output_format": "mp4",
+    "width": 1280,
+    "height": 720,
+    "frame_rate": 25,
+    "elements": [
+        {
+            "description": "composition track for media +voice & title, scene no: 0",
+            "type": "composition",
+            "track": 1,
+            "duration": "12.100840336134 s",
+            "width": "100%",
+            "height": "100%",
+            "elements": [
+                {
+                    "description": "voice element",
+                    "track": 999,
+                    "type": "audio",
+                    "source": "https://creaid.io/creations/tools/audio/all_voices.php?text=Even%20before%20becoming%20a%20renowned%20physicist%2C%20Einstein%20was%20captivated%20by%20music%20and%20began%20playing%20the%20violin%20at%20a%20young%20age%2C%20displaying%20extraordinary%20talent.&voice=en-GB-AbbiNeural&locale=en-GB&gender=Female&style=145",
+                    "duration": "media",
+                    "volume": "100%"
+                },
+                {
+                    "description": "media element composition 2",
+                    "track": 510,
+                    "duration": "2.0168067226891 s",
+                    "type": "composition",
+                    "elements": [
+                        {
+                            "description": "media element composition - image",
+                            "type": "image",
+                            "track": 510,
+                            "source": "https://live.staticflickr.com/32/60183650_3c370fa83b_b.jpg",
+                            "fit": "cover",
+                            "smart_crop": true,
+                            "animations": [
+                                {
+                                    "time": "start",
+                                    "duration": "2.0168067226891 s",
+                                    "easing": "linear",
+                                    "type": "scale",
+                                    "fade": false,
+                                    "scope": "element",
+                                    "start_scale": "100%",
+                                    "end_scale": "110%"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "description": "media element composition 2",
+                    "track": 510,
+                    "duration": "2.0168067226891 s",
+                    "type": "composition",
+                    "elements": [
+                        {
+                            "type": "video",
+                            "track": 510,
+                            "source": "https://videocreationmedia.blob.core.windows.net/creaid/mvp/gif-backgrounds/BG002.mp4",
+                            "volume": "0%",
+                            "loop": true,
+                            "duration": "2.0168067226891 s",
+                            "fit": "cover"
+                        },
+                        {
+                            "description": "media element composition - video",
+                            "type": "video",
+                            "track": 520,
+                            "volume": "0%",
+                            "duration": "2.0168067226891 s",
+                            "loop": true,
+                            "fit": "contain",
+                            "source": "https://media.tenor.com/iC3TCiY-cV4AAAPo/albert-einstein-lol.mp4"
+                        }
+                    ]
+                },
+                {
+                    "description": "media element composition 2",
+                    "track": 510,
+                    "duration": "2.0168067226891 s",
+                    "type": "composition",
+                    "elements": [
+                        {
+                            "type": "video",
+                            "track": 510,
+                            "source": "https://videocreationmedia.blob.core.windows.net/creaid/mvp/gif-backgrounds/BG004.mp4",
+                            "volume": "0%",
+                            "loop": true,
+                            "duration": "2.0168067226891 s",
+                            "fit": "cover"
+                        },
+                        {
+                            "description": "media element composition - video",
+                            "type": "video",
+                            "track": 520,
+                            "volume": "0%",
+                            "duration": "2.0168067226891 s",
+                            "loop": true,
+                            "fit": "contain",
+                            "source": "https://media.tenor.com/vCMcD1c0RGcAAAPo/albert-einstein-smart.mp4"
+                        }
+                    ]
+                },
+                {
+                    "description": "media element composition 2",
+                    "track": 510,
+                    "duration": "2.0168067226891 s",
+                    "type": "composition",
+                    "elements": [
+                        {
+                            "description": "media element composition - video",
+                            "type": "video",
+                            "track": 520,
+                            "volume": "0%",
+                            "duration": "2.0168067226891 s",
+                            "fit": "cover",
+                            "source": "https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/ppl-Ftx/videoblocks-albert-einstein-statue_rbmwd-qmaf__63ee077096fd35db33a92658a527bc19__P720.mp4?type=preview&origin=VIDEOBLOCKS&timestamp_ms=1696240344127&publicKey=test_eeeff3e0cacca88208f89cdbcb2b3b141bd3a38175b68bb16d9bb9dfa8d&apiVersion=2.0&stockItemId=6652177&resolution=720p&endUserId=f1abd670358e036c31296e66b3b66c382ac00812&projectId=A12345&searchId=77caeab1-146a-450e-a66c-beb69d8ed0a0&searchPageId=2b90b99f-0298-4f7a-a658-df2e72d131d0"
+                        }
+                    ]
+                },
+                {
+                    "description": "media element composition 2",
+                    "track": 510,
+                    "duration": "2.0168067226891 s",
+                    "type": "composition",
+                    "elements": [
+                        {
+                            "description": "media element composition - video",
+                            "type": "video",
+                            "track": 520,
+                            "volume": "0%",
+                            "duration": "2.0168067226891 s",
+                            "fit": "cover",
+                            "source": "https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/49_20HQOeijh9fog1/videoblocks-21053_hxjftawdi__6e745f00efd8d23d2002ac63758433f5__P720.mp4?type=preview&origin=VIDEOBLOCKS&timestamp_ms=1696240344129&publicKey=test_eeeff3e0cacca88208f89cdbcb2b3b141bd3a38175b68bb16d9bb9dfa8d&apiVersion=2.0&stockItemId=347321148&resolution=720p&endUserId=f1abd670358e036c31296e66b3b66c382ac00812&projectId=A12345&searchId=77caeab1-146a-450e-a66c-beb69d8ed0a0&searchPageId=2b90b99f-0298-4f7a-a658-df2e72d131d0"
+                        }
+                    ]
+                },
+                {
+                    "description": "media element composition 2",
+                    "track": 510,
+                    "duration": "2.0168067226891 s",
+                    "type": "composition",
+                    "elements": [
+                        {
+                            "description": "media element composition - video",
+                            "type": "video",
+                            "track": 520,
+                            "volume": "0%",
+                            "duration": "2.0168067226891 s",
+                            "fit": "cover",
+                            "source": "https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/GTYSdDW/flight-einstein-formula-on-a-black-background_nvmmikl2ng__2ddd01d3df8bc6927c235c70eb4608a1__P720.mp4?type=preview&origin=VIDEOBLOCKS&timestamp_ms=1696240344131&publicKey=test_eeeff3e0cacca88208f89cdbcb2b3b141bd3a38175b68bb16d9bb9dfa8d&apiVersion=2.0&stockItemId=1674154&resolution=720p&endUserId=f1abd670358e036c31296e66b3b66c382ac00812&projectId=A12345&searchId=77caeab1-146a-450e-a66c-beb69d8ed0a0&searchPageId=2b90b99f-0298-4f7a-a658-df2e72d131d0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "composition track for media +voice & title, scene no: 1",
+            "type": "composition",
+            "track": 1,
+            "duration": "12.100840336134 s",
+            "width": "100%",
+            "height": "100%",
+            "elements": [
+                {
+                    "description": "voice element",
+                    "track": 999,
+                    "type": "audio",
+                    "source": "https://creaid.io/creations/tools/audio/all_voices.php?text=Music%20played%20a%20vital%20role%20in%20Einstein's%20creative%20process%2C%20providing%20him%20with%20inspiration%20and%20a%20means%20to%20explore%20his%20scientific%20ideas%20through%20harmonious%20melodies.&voice=en-GB-AbbiNeural&locale=en-GB&gender=Female&style=145",
+                    "duration": "media",
+                    "volume": "100%"
+                },
+                {
+                    "description": "media element composition 2",
+                    "track": 510,
+                    "duration": "2.0168067226891 s",
+                    "type": "composition",
+                    "elements": [
+                        {
+                            "description": "media element composition - image",
+                            "type": "image",
+                            "track": 510,
+                            "source": "https://live.staticflickr.com/77/167065699_5b25d67e29.jpg",
+                            "fit": "cover",
+                            "smart_crop": true,
+                            "animations": [
+                                {
+                                    "time": "start",
+                                    "duration": "2.0168067226891 s",
+                                    "easing": "linear",
+                                    "type": "scale",
+                                    "fade": false,
+                                    "scope": "element",
+                                    "start_scale": "100%",
+                                    "end_scale": "110%"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "description": "media element composition 2",
+                    "track": 510,
+                    "duration": "2.0168067226891 s",
+                    "type": "composition",
+                    "elements": [
+                        {
+                            "type": "video",
+                            "track": 510,
+                            "source": "https://videocreationmedia.blob.core.windows.net/creaid/mvp/gif-backgrounds/BG008.mp4",
+                            "volume": "0%",
+                            "loop": true,
+                            "duration": "2.0168067226891 s",
+                            "fit": "cover"
+                        },
+                        {
+                            "description": "media element composition - video",
+                            "type": "video",
+                            "track": 520,
+                            "volume": "0%",
+                            "duration": "2.0168067226891 s",
+                            "loop": true,
+                            "fit": "contain",
+                            "source": "https://media.tenor.com/x4sKGQ9usaUAAAPo/einstein-smart.mp4"
+                        }
+                    ]
+                },
+                {
+                    "description": "media element composition 2",
+                    "track": 510,
+                    "duration": "2.0168067226891 s",
+                    "type": "composition",
+                    "elements": [
+                        {
+                            "type": "video",
+                            "track": 510,
+                            "source": "https://videocreationmedia.blob.core.windows.net/creaid/mvp/gif-backgrounds/BG002.mp4",
+                            "volume": "0%",
+                            "loop": true,
+                            "duration": "2.0168067226891 s",
+                            "fit": "cover"
+                        },
+                        {
+                            "description": "media element composition - video",
+                            "type": "video",
+                            "track": 520,
+                            "volume": "0%",
+                            "duration": "2.0168067226891 s",
+                            "loop": true,
+                            "fit": "contain",
+                            "source": "https://media.tenor.com/Lmw7N27d5qEAAAPo/einstein-l%C3%ADngua.mp4"
+                        }
+                    ]
+                },
+                {
+                    "description": "media element composition 2",
+                    "track": 510,
+                    "duration": "2.0168067226891 s",
+                    "type": "composition",
+                    "elements": [
+                        {
+                            "description": "media element composition - video",
+                            "type": "video",
+                            "track": 520,
+                            "volume": "0%",
+                            "duration": "2.0168067226891 s",
+                            "fit": "cover",
+                            "source": "https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/IevwMJs/videoblocks-animated-pi-formula-background_rhhanwj-v__540af2efe9ba099736e088ae8adb17ff__P720.mp4?type=preview&origin=VIDEOBLOCKS&timestamp_ms=1696240349682&publicKey=test_eeeff3e0cacca88208f89cdbcb2b3b141bd3a38175b68bb16d9bb9dfa8d&apiVersion=2.0&stockItemId=8862098&resolution=720p&endUserId=f1abd670358e036c31296e66b3b66c382ac00812&projectId=A12345&searchId=f874d35c-762e-498f-af90-845312de7374&searchPageId=4ad817a5-aeef-474b-b245-ee499da29406"
+                        }
+                    ]
+                },
+                {
+                    "description": "media element composition 2",
+                    "track": 510,
+                    "duration": "2.0168067226891 s",
+                    "type": "composition",
+                    "elements": [
+                        {
+                            "description": "media element composition - video",
+                            "type": "video",
+                            "track": 520,
+                            "volume": "0%",
+                            "duration": "2.0168067226891 s",
+                            "fit": "cover",
+                            "source": "https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/BSHk3V_Riu35zo5c/videoblocks-9619-aerial-arc-shot-of-montefiore-hospital-campus-in-bronx-new-york_hbflqqjxo__c85cddd05de3ea9e8d723eab888c5828__P720.mp4?type=preview&origin=VIDEOBLOCKS&timestamp_ms=1696240349684&publicKey=test_eeeff3e0cacca88208f89cdbcb2b3b141bd3a38175b68bb16d9bb9dfa8d&apiVersion=2.0&stockItemId=347211658&resolution=720p&endUserId=f1abd670358e036c31296e66b3b66c382ac00812&projectId=A12345&searchId=f874d35c-762e-498f-af90-845312de7374&searchPageId=4ad817a5-aeef-474b-b245-ee499da29406"
+                        }
+                    ]
+                },
+                {
+                    "description": "media element composition 2",
+                    "track": 510,
+                    "duration": "2.0168067226891 s",
+                    "type": "composition",
+                    "elements": [
+                        {
+                            "description": "media element composition - video",
+                            "type": "video",
+                            "track": 520,
+                            "volume": "0%",
+                            "duration": "2.0168067226891 s",
+                            "fit": "cover",
+                            "source": "https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/gVUQIU4/videoblocks-shiny-lights-in-air-with-e-mc2-sign-albert-einstein-quotes-with-mathematical-writing-of-mass-energy-equivalence_bcxvic7lbz__9fa558f644cefaaba1f846c75a9db71c__P720.mp4?type=preview&origin=VIDEOBLOCKS&timestamp_ms=1696240349686&publicKey=test_eeeff3e0cacca88208f89cdbcb2b3b141bd3a38175b68bb16d9bb9dfa8d&apiVersion=2.0&stockItemId=4454430&resolution=720p&endUserId=f1abd670358e036c31296e66b3b66c382ac00812&projectId=A12345&searchId=f874d35c-762e-498f-af90-845312de7374&searchPageId=4ad817a5-aeef-474b-b245-ee499da29406"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "composition track for media +voice & title, scene no: 2",
+            "type": "composition",
+            "track": 1,
+            "duration": "14.117647058824 s",
+            "width": "100%",
+            "height": "100%",
+            "elements": [
+                {
+                    "description": "voice element",
+                    "track": 999,
+                    "type": "audio",
+                    "source": "https://creaid.io/creations/tools/audio/all_voices.php?text=Einstein's%20love%20for%20music%20extended%20beyond%20his%20personal%20enjoyment.%20His%20violin%20playing%20showcased%20the%20power%20of%20interdisciplinary%20pursuits%20and%20continues%20to%20inspire%20scientists%20and%20musicians%20alike.&voice=en-GB-AbbiNeural&locale=en-GB&gender=Female&style=145",
+                    "duration": "media",
+                    "volume": "100%"
+                },
+                {
+                    "description": "media element composition 2",
+                    "track": 510,
+                    "duration": "1.0084033613445 s",
+                    "type": "composition",
+                    "elements": [
+                        {
+                            "description": "media element composition - image",
+                            "type": "image",
+                            "track": 510,
+                            "source": "https://live.staticflickr.com/1105/4606398747_b0dc14549c.jpg",
+                            "fit": "cover",
+                            "smart_crop": true,
+                            "animations": [
+                                {
+                                    "time": "start",
+                                    "duration": "1.0084033613445 s",
+                                    "easing": "linear",
+                                    "type": "scale",
+                                    "fade": false,
+                                    "scope": "element",
+                                    "start_scale": "100%",
+                                    "end_scale": "110%"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "description": "media element composition 2",
+                    "track": 510,
+                    "duration": "1.0084033613445 s",
+                    "type": "composition",
+                    "elements": [
+                        {
+                            "type": "video",
+                            "track": 510,
+                            "source": "https://videocreationmedia.blob.core.windows.net/creaid/mvp/gif-backgrounds/BG002.mp4",
+                            "volume": "0%",
+                            "loop": true,
+                            "duration": "1.0084033613445 s",
+                            "fit": "cover"
+                        },
+                        {
+                            "description": "media element composition - video",
+                            "type": "video",
+                            "track": 520,
+                            "volume": "0%",
+                            "duration": "1.0084033613445 s",
+                            "loop": true,
+                            "fit": "contain",
+                            "source": "https://media.tenor.com/hgbMUJ8-Ye4AAAPo/diplein-einstein.mp4"
+                        }
+                    ]
+                },
+                {
+                    "description": "media element composition 2",
+                    "track": 510,
+                    "duration": "1.0084033613445 s",
+                    "type": "composition",
+                    "elements": [
+                        {
+                            "description": "media element composition - video",
+                            "type": "video",
+                            "track": 520,
+                            "volume": "0%",
+                            "duration": "1.0084033613445 s",
+                            "fit": "cover",
+                            "source": "https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/BrltVHefQjiwahyhy/videoblocks-protestor-swings-a-einstein-facts-matter-sign-at-the-march-for-science_bfe_wh4nfm__5dc872b5831fb2e14e7209ad2bc447dd__P720.mp4?type=preview&origin=VIDEOBLOCKS&timestamp_ms=1696240354591&publicKey=test_eeeff3e0cacca88208f89cdbcb2b3b141bd3a38175b68bb16d9bb9dfa8d&apiVersion=2.0&stockItemId=7152035&resolution=720p&endUserId=f1abd670358e036c31296e66b3b66c382ac00812&projectId=A12345&searchId=1272f696-08d6-430e-a494-bd8834b08ec0&searchPageId=936d6e31-c772-4d5c-b82b-63e2424db34d"
+                        }
+                    ]
+                },
+                {
+                    "description": "media element composition 2",
+                    "track": 510,
+                    "duration": "1.0084033613445 s",
+                    "type": "composition",
+                    "elements": [
+                        {
+                            "type": "video",
+                            "track": 510,
+                            "source": "https://videocreationmedia.blob.core.windows.net/creaid/mvp/gif-backgrounds/BG001.mp4",
+                            "volume": "0%",
+                            "loop": true,
+                            "duration": "1.0084033613445 s",
+                            "fit": "cover"
+                        },
+                        {
+                            "description": "media element composition - video",
+                            "type": "video",
+                            "track": 520,
+                            "volume": "0%",
+                            "duration": "1.0084033613445 s",
+                            "loop": true,
+                            "fit": "contain",
+                            "source": "https://media.tenor.com/6GzXtEJaRNsAAAPo/einstein-windy.mp4"
+                        }
+                    ]
+                },
+                {
+                    "description": "media element composition 2",
+                    "track": 510,
+                    "duration": "1.0084033613445 s",
+                    "type": "composition",
+                    "elements": [
+                        {
+                            "description": "media element composition - video",
+                            "type": "video",
+                            "track": 520,
+                            "volume": "0%",
+                            "duration": "1.0084033613445 s",
+                            "fit": "cover",
+                            "source": "https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/r6uQGb9/videoblocks-young-creative-artist-spray-painting-a-graffiti-about-peace-and-pilgrimage-along-the-way-of-st-james-or-camino-de-santiago-spain-skilled-man-creativity-and-artwork_btgjuhzsh__417a73f4ae2d114a2a0cd05240546ad1__P720.mp4?type=preview&origin=VIDEOBLOCKS&timestamp_ms=1696240354593&publicKey=test_eeeff3e0cacca88208f89cdbcb2b3b141bd3a38175b68bb16d9bb9dfa8d&apiVersion=2.0&stockItemId=10749460&resolution=720p&endUserId=f1abd670358e036c31296e66b3b66c382ac00812&projectId=A12345&searchId=1272f696-08d6-430e-a494-bd8834b08ec0&searchPageId=936d6e31-c772-4d5c-b82b-63e2424db34d"
+                        }
+                    ]
+                },
+                {
+                    "description": "media element composition 2",
+                    "track": 510,
+                    "duration": "1.0084033613445 s",
+                    "type": "composition",
+                    "elements": [
+                        {
+                            "description": "media element composition - video",
+                            "type": "video",
+                            "track": 520,
+                            "volume": "0%",
+                            "duration": "1.0084033613445 s",
+                            "fit": "cover",
+                            "source": "https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/BrltVHefQjiwahyhy/videoblocks-a-sign-with-famous-scientists-rest-on-the-ground-at-the-nyc-march-for-science_rkz-u5qezx__d0515a5b11ce68ccb9157f9e58f39c65__P720.mp4?type=preview&origin=VIDEOBLOCKS&timestamp_ms=1696240354595&publicKey=test_eeeff3e0cacca88208f89cdbcb2b3b141bd3a38175b68bb16d9bb9dfa8d&apiVersion=2.0&stockItemId=7152125&resolution=720p&endUserId=f1abd670358e036c31296e66b3b66c382ac00812&projectId=A12345&searchId=1272f696-08d6-430e-a494-bd8834b08ec0&searchPageId=936d6e31-c772-4d5c-b82b-63e2424db34d"
+                        }
+                    ]
+                },
+                {
+                    "description": "media element composition 2",
+                    "track": 510,
+                    "duration": "1.0084033613445 s",
+                    "type": "composition",
+                    "elements": [
+                        {
+                            "description": "media element composition - video",
+                            "type": "video",
+                            "track": 520,
+                            "volume": "0%",
+                            "duration": "1.0084033613445 s",
+                            "fit": "cover",
+                            "source": "https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/BYhbSjKDtkvty6l0n/videoblocks-650de6f857dea74f50cc8ef4_rgxzrghk6__c7445c57cf33c1f5cb68f0159d6cf07f__P720.mp4?type=preview&origin=VIDEOBLOCKS&timestamp_ms=1696240354597&publicKey=test_eeeff3e0cacca88208f89cdbcb2b3b141bd3a38175b68bb16d9bb9dfa8d&apiVersion=2.0&stockItemId=348511310&resolution=720p&endUserId=f1abd670358e036c31296e66b3b66c382ac00812&projectId=A12345&searchId=1272f696-08d6-430e-a494-bd8834b08ec0&searchPageId=936d6e31-c772-4d5c-b82b-63e2424db34d"
+                        }
+                    ]
+                },
+                {
+                    "description": "media element composition 2",
+                    "track": 510,
+                    "duration": "1.0084033613445 s",
+                    "type": "composition",
+                    "elements": [
+                        {
+                            "description": "media element composition - video",
+                            "type": "video",
+                            "track": 520,
+                            "volume": "0%",
+                            "duration": "1.0084033613445 s",
+                            "fit": "cover",
+                            "source": "https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/BSHk3V_Riu35zo5c/videoblocks-9630-dolly-shot-close-up-of-montefiore-hospital-campus-in-bronx-new-york_sacb79kqs__eabf6a91f17ba6b5e88b5e65f17fcf5b__P720.mp4?type=preview&origin=VIDEOBLOCKS&timestamp_ms=1696240354600&publicKey=test_eeeff3e0cacca88208f89cdbcb2b3b141bd3a38175b68bb16d9bb9dfa8d&apiVersion=2.0&stockItemId=347211671&resolution=720p&endUserId=f1abd670358e036c31296e66b3b66c382ac00812&projectId=A12345&searchId=1272f696-08d6-430e-a494-bd8834b08ec0&searchPageId=936d6e31-c772-4d5c-b82b-63e2424db34d"
+                        }
+                    ]
+                },
+                {
+                    "description": "media element composition 2",
+                    "track": 510,
+                    "duration": "1.0084033613445 s",
+                    "type": "composition",
+                    "elements": [
+                        {
+                            "description": "media element composition - video",
+                            "type": "video",
+                            "track": 520,
+                            "volume": "0%",
+                            "duration": "1.0084033613445 s",
+                            "fit": "cover",
+                            "source": "https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/r6uQGb9/videoblocks-young-creative-artist-spray-painting-a-graffiti-about-peace-and-pilgrimage-along-the-way-of-st-james-or-camino-de-santiago-spain-skilled-man-creativity-and-artwork_h6nturmhr__0dfa67ba60568f3dfa287e27414bc681__P720.mp4?type=preview&origin=VIDEOBLOCKS&timestamp_ms=1696240354602&publicKey=test_eeeff3e0cacca88208f89cdbcb2b3b141bd3a38175b68bb16d9bb9dfa8d&apiVersion=2.0&stockItemId=10756291&resolution=720p&endUserId=f1abd670358e036c31296e66b3b66c382ac00812&projectId=A12345&searchId=1272f696-08d6-430e-a494-bd8834b08ec0&searchPageId=936d6e31-c772-4d5c-b82b-63e2424db34d"
+                        }
+                    ]
+                },
+                {
+                    "description": "media element composition 2",
+                    "track": 510,
+                    "duration": "1.0084033613445 s",
+                    "type": "composition",
+                    "elements": [
+                        {
+                            "description": "media element composition - video",
+                            "type": "video",
+                            "track": 520,
+                            "volume": "0%",
+                            "duration": "1.0084033613445 s",
+                            "fit": "cover",
+                            "source": "https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/r6uQGb9/videoblocks-young-artist-spray-painting-a-graffiti-about-peace-and-pilgrimage-along-the-way-of-st-james-or-camino-de-santiago-spain-man-creativity-and-art-slow-motion_rareahmhb__07f6c7241749f7bfecb569537325b432__P720.mp4?type=preview&origin=VIDEOBLOCKS&timestamp_ms=1696240354604&publicKey=test_eeeff3e0cacca88208f89cdbcb2b3b141bd3a38175b68bb16d9bb9dfa8d&apiVersion=2.0&stockItemId=10756283&resolution=720p&endUserId=f1abd670358e036c31296e66b3b66c382ac00812&projectId=A12345&searchId=1272f696-08d6-430e-a494-bd8834b08ec0&searchPageId=936d6e31-c772-4d5c-b82b-63e2424db34d"
+                        }
+                    ]
+                },
+                {
+                    "description": "media element composition 2",
+                    "track": 510,
+                    "duration": "1.0084033613445 s",
+                    "type": "composition",
+                    "elements": [
+                        {
+                            "description": "media element composition - video",
+                            "type": "video",
+                            "track": 520,
+                            "volume": "0%",
+                            "duration": "1.0084033613445 s",
+                            "fit": "cover",
+                            "source": "https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/r6uQGb9/videoblocks-young-artist-spray-painting-a-graffiti-about-peace-and-pilgrimage-along-the-way-of-st-james-or-camino-de-santiago-spain-man-creativity-and-art-slow-motion_hpxscsfsh__24713fedf763cc89200df4e3002d6a5f__P720.mp4?type=preview&origin=VIDEOBLOCKS&timestamp_ms=1696240354606&publicKey=test_eeeff3e0cacca88208f89cdbcb2b3b141bd3a38175b68bb16d9bb9dfa8d&apiVersion=2.0&stockItemId=10756303&resolution=720p&endUserId=f1abd670358e036c31296e66b3b66c382ac00812&projectId=A12345&searchId=1272f696-08d6-430e-a494-bd8834b08ec0&searchPageId=936d6e31-c772-4d5c-b82b-63e2424db34d"
+                        }
+                    ]
+                },
+                {
+                    "description": "media element composition 2",
+                    "track": 510,
+                    "duration": "1.0084033613445 s",
+                    "type": "composition",
+                    "elements": [
+                        {
+                            "description": "media element composition - video",
+                            "type": "video",
+                            "track": 520,
+                            "volume": "0%",
+                            "duration": "1.0084033613445 s",
+                            "fit": "cover",
+                            "source": "https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/BSHk3V_Riu35zo5c/videoblocks-9610-aerial-street-view-of-montefiore-hospital-in-bronx-new-york-during-cor_s19nzcyqo__42f84063bda45a77d2695bfc97a52902__P720.mp4?type=preview&origin=VIDEOBLOCKS&timestamp_ms=1696240354608&publicKey=test_eeeff3e0cacca88208f89cdbcb2b3b141bd3a38175b68bb16d9bb9dfa8d&apiVersion=2.0&stockItemId=347211648&resolution=720p&endUserId=f1abd670358e036c31296e66b3b66c382ac00812&projectId=A12345&searchId=1272f696-08d6-430e-a494-bd8834b08ec0&searchPageId=936d6e31-c772-4d5c-b82b-63e2424db34d"
+                        }
+                    ]
+                },
+                {
+                    "description": "media element composition 2",
+                    "track": 510,
+                    "duration": "1.0084033613445 s",
+                    "type": "composition",
+                    "elements": [
+                        {
+                            "description": "media element composition - video",
+                            "type": "video",
+                            "track": 520,
+                            "volume": "0%",
+                            "duration": "1.0084033613445 s",
+                            "fit": "cover",
+                            "source": "https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/BSHk3V_Riu35zo5c/videoblocks-9636-aerial-pan-view-of-montefiore-hospital-center-in-the-bronx-new-york_bxtom5jmi__ad42fbc9eaf82f3df49522d2f0cfc3b5__P720.mp4?type=preview&origin=VIDEOBLOCKS&timestamp_ms=1696240354610&publicKey=test_eeeff3e0cacca88208f89cdbcb2b3b141bd3a38175b68bb16d9bb9dfa8d&apiVersion=2.0&stockItemId=347211678&resolution=720p&endUserId=f1abd670358e036c31296e66b3b66c382ac00812&projectId=A12345&searchId=1272f696-08d6-430e-a494-bd8834b08ec0&searchPageId=936d6e31-c772-4d5c-b82b-63e2424db34d"
+                        }
+                    ]
+                },
+                {
+                    "description": "media element composition 2",
+                    "track": 510,
+                    "duration": "1.0084033613445 s",
+                    "type": "composition",
+                    "elements": [
+                        {
+                            "description": "media element composition - video",
+                            "type": "video",
+                            "track": 520,
+                            "volume": "0%",
+                            "duration": "1.0084033613445 s",
+                            "fit": "cover",
+                            "source": "https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/BSHk3V_Riu35zo5c/videoblocks-9657-aerial-sunset-pan-shot-of-montefiore-hospital-center-in-the-bronx-new-_rur7eqy7i__97ad9240ece81de58a0318e53dbb13da__P720.mp4?type=preview&origin=VIDEOBLOCKS&timestamp_ms=1696240354612&publicKey=test_eeeff3e0cacca88208f89cdbcb2b3b141bd3a38175b68bb16d9bb9dfa8d&apiVersion=2.0&stockItemId=347211701&resolution=720p&endUserId=f1abd670358e036c31296e66b3b66c382ac00812&projectId=A12345&searchId=1272f696-08d6-430e-a494-bd8834b08ec0&searchPageId=936d6e31-c772-4d5c-b82b-63e2424db34d"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "music",
+            "type": "audio",
+            "track": 999,
+            "source": "https://dm0qx8t0i9gc9.cloudfront.net/watermarks/audio/S2O4GbbeUk52szlol/audioblocks-investigating-the-future-corporate-music_HE9qVH0TL_WM.mp3",
+            "volume": "30%",
+            "duration": null,
+            "audio_fade_out": "1 s"
+        }
+    ],
+    "fonts": [
+        {
+            "family": "font1",
+            "weight": 400,
+            "style": "italic",
+            "source": "https://videocreationmedia.blob.core.windows.net/creaid/media/fonts/Alegreya-Italic-wght.ttf"
+        }
+    ]
+}

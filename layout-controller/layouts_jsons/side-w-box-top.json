@@ -1,0 +1,57 @@
+{
+    "id": 4,
+    "name": "side-w-box-top",
+    "text_count": 1,
+    "media_count": 2,
+    "preview_img": "\"\"",
+    "json_data": {
+        "type": "composition",
+        "duration": "5 s",
+        "elements": [
+            {
+                "type": "image",
+                "track": 1,
+                "time": "0 s",
+                "x": "69.8091%",
+                "y": "67.3386%",
+                "width": "69.0511%",
+                "height": "73.9247%"
+            },
+            {
+                "type": "image",
+                "track": 2,
+                "time": "0 s",
+                "x": "15.3197%",
+                "y": "49.4623%",
+                "width": "39.9276%",
+                "height": "109.6774%"
+            },
+            {
+                "type": "shape",
+                "track": 3,
+                "time": "0 s",
+                "duration": "5 s",
+                "x": "67.6418%",
+                "y": "15.0537%",
+                "width": "64.7165%",
+                "height": "30.6451%",
+                "x_anchor": "50%",
+                "y_anchor": "50%",
+                "path": "M 0 0 L 100 0 L 100 100 L 0 100 L 0 0 Z"
+            },
+            {
+                "type": "text",
+                "track": 4,
+                "time": "0 s",
+                "x": "77.6361%",
+                "y": "14.7937%",
+                "width": "40.3931%",
+                "height": "18.7033%",
+                "x_alignment": "100%",
+                "y_alignment": "50%",
+                "font_size_maximum": "8.1 vmin"
+            }
+        ]
+    },
+    "category": "advert"
+}
