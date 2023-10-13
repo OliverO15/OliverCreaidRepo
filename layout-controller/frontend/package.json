@@ -18,6 +18,10 @@
   "dependencies": {
     "@creatomate/preview": "^1.1.1",
     "axios": "^1.5.0",
+    "bootstrap": "^5.3.2",
+    "ffmpeg": "^0.0.4",
+    "firebase": "^10.4.0",
+    "lamejs": "^1.2.1",
     "vite": "^4.3.9"
   }
 }

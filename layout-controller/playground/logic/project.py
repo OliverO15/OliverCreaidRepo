@@ -6,7 +6,6 @@ from .scene import Scene
 class Project:
 
     def __init__(self):
-        self._id = uuid.uuid4()
         self.name = ""
         self.source = ""
         self.duration = 12
@@ -18,13 +17,13 @@ class Project:
 
     def create_video(self):
         for i in range(4):
-            self.generate_scene(round(self.duration / 4) * i, i+1, self.layouts[i])
+            self.generate_scene(round(self.duration / 4) * i, i+1, self.layouts[i], self.text[i])
 
         self.to_json()
 
-    def generate_scene(self, start, track, layout):
+    def generate_scene(self, start, track, layout, text_list):
         """Fill scenes with data"""
-        scene = Scene(start, track, self.style, self.media_container, self.text, layout)
+        scene = Scene(start, track, self.style, self.media_container, text_list, layout)
         scene.set_source()
         self.scenes.append(scene)
 

@@ -1,0 +1,44 @@
+{
+    "id": 3,
+    "name": "side-by-side-center",
+    "text_count": 1,
+    "media_count": 2,
+    "preview_img": "\"\"",
+    "json_data": {
+        "name": "side-by-side-even",
+        "type": "composition",
+        "duration": "5 s",
+        "elements": [
+            {
+                "type": "image",
+                "track": 1,
+                "time": "0 s",
+                "x": "76.198%",
+                "y": "49.4623%",
+                "width": "56.2732%",
+                "height": "109.6774%"
+            },
+            {
+                "type": "image",
+                "track": 2,
+                "time": "0 s",
+                "x": "22.4266%",
+                "y": "49.4623%",
+                "width": "54.1414%",
+                "height": "109.6774%"
+            },
+            {
+                "type": "text",
+                "track": 3,
+                "time": "0 s",
+                "x": "24.8443%",
+                "y": "80.9227%",
+                "width": "36.764%",
+                "height": "18.7033%",
+                "y_alignment": "100%",
+                "font_size_maximum": "8.1 vmin"
+            }
+        ]
+    },
+    "category": "advert"
+}

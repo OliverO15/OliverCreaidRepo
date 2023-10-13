@@ -1,6 +1,7 @@
 import json
 import os
 from .layout import Layout
+# from ..models import Layout as LayoutModel
 
 
 class Scene:
@@ -13,18 +14,7 @@ class Scene:
         self.media_elements = media
         self.text_elements = text
         self.source = {}
-        self.layout = self.select_layout(layout)
-
-    def select_layout(self, layout_name):
-        """Find and init layout"""
-        # Get the absolute path of the current script
-        script_dir = os.path.dirname(os.path.abspath(__file__))
-
-        # Construct the relative path to the JSON file
-        relative_path = os.path.join(script_dir, f'../layouts/{layout_name}')
-
-        new_layout = Layout(self.style, self.media_elements, self.text_elements, relative_path)
-        return new_layout
+        self.layout = Layout(style, media, text, layout)
 
     def print_layout(self):
         """Print layout"""
@@ -57,7 +47,7 @@ def main():
         "font": "arial",
     }
 
-    scene = Scene(1, 0, style, media, text)
+    scene = Scene(1, 0, style, media, text, "layout01.json")
     scene.set_source()
     print(scene.source)
 

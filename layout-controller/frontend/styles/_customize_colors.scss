@@ -1,0 +1,302 @@
+h1 {
+    color: rgb(81, 22, 132);
+}
+
+.customise-style {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title-checkbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.customize-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    opacity: 0.3;
+
+    // Disable clicking on the container
+    pointer-events: none;
+    user-select: none;
+    -moz-user-select: none;
+
+
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.25);
+    transition: all 0.2s ease-in-out;
+
+    h5 {
+        margin: 0;
+        color: grey;
+    }
+}
+
+.color-element {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+
+    span {
+        margin-right: auto;
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+
+.color-selection-container {
+    display: flex;
+    height: 32px;
+    flex-direction: row;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 110px;
+    justify-content: space-around;
+
+    .color-hex {
+        width: 56px;
+        height: 32px;
+        border: 0;
+        margin-right: 8px;
+        margin-left: 7px;
+        outline: none;
+    }
+
+    .color-picker-container {
+        position: relative;
+        overflow: hidden;
+        width: 100px;
+        height: 32px;
+        border-radius: 8px;
+        border-left: 1px solid black;
+
+        .color-picker-icon {
+            position: absolute;
+            top: 28%;
+            left: 40%;
+            cursor: pointer;
+            transform: scale(1.5);
+
+            transition: all 0.2s ease-in-out;
+
+            &:hover {
+                transform: scale(1.6);
+            }
+        }
+
+        input {
+            position: absolute;
+            height: 60px;
+            width: 60px;
+            top: -10px;
+            left: -10px;
+        }
+    }
+
+    path {
+        transition: all 0.3s ease-in-out;
+    }
+}
+
+/* Custom Checkmark */
+.modal-checkbox-container input[type="checkbox"] {
+    /* Add if not using autoprefixer */
+    -webkit-appearance: none;
+    appearance: none;
+    /* Not removed via appearance */
+    margin: 0;
+
+    font: inherit;
+    color: currentColor;
+    width: 18px;
+    height: 18px;
+    border: 1.5px solid black;
+    border-radius: 0.15em;
+    transform: translateY(-0.075em);
+
+    display: grid;
+    place-content: center;
+    cursor: pointer;
+}
+
+.modal-checkbox-container input[type="checkbox"]::before {
+    content: "";
+    width: 9px;
+    height: 9px;
+    background-color: black;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em var(--form-control-color);
+}
+
+input[type="checkbox"]:checked::before {
+    transform: scale(1);
+}
+
+.font-selection-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    justify-content: start;
+    margin: 0;
+    padding: 0;
+}
+
+.font-selection-container.font-weight {
+    margin-left: auto;
+    width: 50%;
+}
+
+.modal-dropdown {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+}
+
+.dropdown-input-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-radius: 35px;
+    background-color: #ffffff40;
+    border: 1px solid black;
+}
+
+.dropdown-input-container input::placeholder {
+    color: black;
+    opacity: 0.7;
+}
+
+.dropdown-icon {
+    width: 23px;
+    margin-left: 20px;
+}
+
+.dropdown-input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: black;
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.dropdown-arrow {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.dropdown-list {
+    position: absolute;
+    top: 115%;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-top: none;
+    border-radius: 10px;
+    max-height: 200px;
+    overflow-y: auto;
+    color: black;
+    border: 0.5px solid black;
+    display: none;
+
+    z-index: 2000;
+}
+
+.dropdown-item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.dropdown-item:hover {
+    background-color: #9343FF;
+    color: white;
+}
+
+.color-palette-container {
+    position: relative;
+    background-color: #ba43ff;
+    color: white;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 15px;
+    border-radius: 10px;
+
+    h3 {
+        margin: 0;
+        margin-bottom: 10px;
+        font-size: 15px;
+        font-weight: 600;
+
+    }
+
+    .refresh-icon {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    .color-palettes {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 5px;
+    }
+
+    .palette-container {
+        width: 50px;
+        height: 50px;
+        overflow: hidden;
+        border-radius: 10px;
+        border: 2px solid white;
+        position: relative;
+
+        input {
+            position: absolute;
+            width: 70px;
+            height: 70px;
+            top: -10px;
+            left: -10px;
+            border: 0;
+            outline: none;
+            cursor: pointer;
+        }
+    }
+
+    .dropdown-input-container {
+        background-color: transparent;
+        border: 1px solid white;
+    }
+
+    .dropdown-input-container input::placeholder {
+        color: white;
+        opacity: 0.7;
+    }
+
+    .dropdown-input {
+        color: white;
+    }
+}

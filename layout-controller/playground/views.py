@@ -2,6 +2,8 @@ from django.http import HttpResponse
 from django.http import JsonResponse
 from .logic.project import Project
 from django.views.decorators.csrf import csrf_exempt
+from .models import Category
+from .models import Layout as LayoutModel
 import json
 import os
 import glob
@@ -11,6 +13,51 @@ import glob
 def say_hello(request):
     return HttpResponse("Hello world !")
 
+
+@csrf_exempt
+def create_category(request):
+    if request.method == 'POST':
+        try:
+            # Get the data from the request
+            data = json.loads(request.body)
+            name = data.get('name')
+
+            # Create a new Category instance and save it
+            category = Category(name=name)
+            category.save()
+
+            # Return a success response
+            return JsonResponse({'message': 'Category created successfully'})
+        except Exception as e:
+            return JsonResponse({'error': str(e)}, status=400)
+
+    return JsonResponse({'error': 'Invalid request method'}, status=405)
+
+def layout(request, layout_id):
+    try:
+        layout = LayoutModel.objects.get(id=layout_id)
+        data = {
+            'id': layout.id,
+            'name': layout.name,
+            'text_count': layout.text_count,
+            'media_count': layout.media_count,
+            'preview_img': layout.preview_img,
+            'json_data': layout.json_data,
+            'category': layout.category.name
+        }
+        return JsonResponse(data)
+    except LayoutModel.DoesNotExist:
+        return JsonResponse({'error': 'The layout does not exist'}, status=404)
+
+def layouts(request):
+    layouts = LayoutModel.objects.all()
+    data = [{'id': layout.id, 'name': layout.name, 'text_count': layout.text_count} for layout in layouts]
+    return JsonResponse(data, safe=False)
+
+def get_categories(request):
+    categories = Category.objects.all()
+    data = [{'id': category.id, 'name': category.name} for category in categories]
+    return JsonResponse(data, safe=False)
 
 def project(request):
     project = Project()
@@ -35,14 +82,6 @@ def project(request):
     project.create_video()
     return JsonResponse(project.source, safe=False)
 
-def layouts(request):
-    directory_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'layouts')
-
-    json_files = glob.glob(os.path.join(directory_path, '*.json'))
-    files = [os.path.basename(file) for file in json_files]
-
-    return JsonResponse({"files": files}, safe=False)
-
 @csrf_exempt
 def create_project(request):
     if request.method == 'POST':
@@ -56,7 +95,14 @@ def create_project(request):
             new_project.media_container = data["media_container"]
             new_project.text = data["text"]
             new_project.style = data["style"]
-            new_project.layouts = data["layouts"]
+
+            # Get layouts
+            layouts = []
+            for layout_id in data["layouts"]:
+                layout = LayoutModel.objects.get(id=layout_id)
+                layouts.append(layout.json_data)
+
+            new_project.layouts = layouts
             new_project.create_video()
 
             return JsonResponse(new_project.source, safe=False, status=201)  # 201 Created

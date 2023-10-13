@@ -1,6 +1,4 @@
-h1 {
-    color: rgb(81, 22, 132);
-}
+@use 'customize_colors';
 
 .config-container {
     display: flex;
@@ -96,3 +94,295 @@ h1 {
 
     }
 }
+
+.modal-preview-loading {
+    width: 300px;
+    display: flex;
+    gap: 15px;
+    margin-bottom: 300px;
+  
+    // Initially, set opacity to 0 and move it to the left
+    opacity: 0;
+    transform: translateX(-100%);
+  
+    lottie-player {
+      width: 100px;
+      transform: rotate(5deg);
+    }
+  
+    .message-container {
+      height: 80%;
+      background-color: white;
+      box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+      border-radius: 20px 20px 20px 0px;
+      padding-left: 25px;
+      padding-right: 25px;
+      font-weight: bold;
+    }
+  
+    // Use transition to animate opacity and transform
+    transition: opacity 0.5s, transform 0.5s;
+  }
+  
+  // The 'animated' class for the fade-in and move-in effect
+  .animated {
+    opacity: 1;
+    transform: translate(100%, 100%);
+  }
+  
+  // The 'hidden' class for hiding the element
+  .hidden {
+    opacity: 0;
+    transform: translate(100%, 80%);
+  }
+
+//   Filter Things
+/* styles.css */
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.filter {
+    margin-bottom: 20px;
+}
+
+.product-list {
+    list-style: none;
+    padding: 0;
+}
+
+.product {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Custom CSS for the toast and progress bar */
+.toast-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.toast {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.progress-container {
+    margin-top: 10px;
+    height: 4px;
+    background-color: #ccc;
+}
+
+.progress-bar {
+    height: 100%;
+    width: 0;
+    background-color: #f39c12;
+    transition: width 4s linear;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    padding: 0;
+    border: 0;
+    background: inherit;
+    cursor: pointer;
+    outline: none;
+    width: 40px;
+    height: 40px;
+}
+
+#audio-player-container {
+
+    display: flex;
+    flex-direction: column;
+    margin: 100px 5% auto 5%;
+    width: 90%;
+    max-width: 500px;
+    background: #9343FF;
+    border-radius: 10px;
+    cursor: pointer;
+
+    transition: background 0.2s ease-in-out;
+}
+
+#audio-player-container:hover {
+    background: #a45eff;
+}
+
+#audio-player-container .main-info {
+    display: flex;
+    flex-direction: row;
+}
+
+#audio-player-container .play-btn-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#play-icon {
+    margin: 25px;
+}
+
+#audio-player-container .song-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-left: 2.5%;
+    color: white;
+}
+
+#audio-player-container .song-info h3 {
+    margin-bottom: 5px;
+    margin-top: 0;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+#audio-player-container .song-info span {
+    font-weight: 200;
+    opacity: 0.4;
+    margin-right: 10px;
+}
+
+
+// Audio Controls
+#seek-slider {
+    display: none;
+
+    transition: all 0.2s ease-in-out;
+}
+
+input[type="range"] {
+    position: relative;
+    -webkit-appearance: none;
+    width: 50%;
+    margin-left: 19%;
+    margin-bottom: 15px;
+    padding: 0;
+    height: 19px;
+    float: left;
+    outline: none;
+    background-color: transparent;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 3px;
+    cursor: pointer;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.6) var(--buffered-width), rgba(255, 255, 255, 0.2) var(--buffered-width));
+}
+
+input[type="range"]::before {
+    position: absolute;
+    content: "";
+    top: 8px;
+    left: 0;
+    width: var(--seek-before-width);
+    height: 3px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    position: relative;
+    -webkit-appearance: none;
+    box-sizing: content-box;
+    border: 1px solid #ffffff;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+    margin: -7px 0 0 0;
+}
+
+input[type="range"]:active::-webkit-slider-thumb {
+    transform: scale(1.2);
+    background: #007db5;
+}
+
+input[type="range"]::-moz-range-track {
+    width: 100%;
+    height: 3px;
+    cursor: pointer;
+    background: linear-gradient(to right, rgba(0, 125, 181, 0.6) var(--buffered-width), rgba(0, 125, 181, 0.2) var(--buffered-width));
+}
+
+input[type="range"]::-moz-range-progress {
+    background-color: #007db5;
+}
+
+input[type="range"]::-moz-focus-outer {
+    border: 0;
+}
+  
+input[type="range"]::-moz-range-thumb {
+    box-sizing: content-box;
+    border: 1px solid #007db5;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+input[type="range"]:active::-moz-range-thumb {
+    transform: scale(1.2);
+    background: #007db5;
+}
+
+input[type="range"]::-ms-track {
+    width: 100%;
+    height: 3px;
+    cursor: pointer;
+    background: transparent;
+    border: solid transparent;
+    color: transparent;
+}
+
+input[type="range"]::-ms-fill-lower {
+    background-color: #007db5;
+}
+
+input[type="range"]::-ms-fill-upper {
+    background: linear-gradient(to right, rgba(0, 125, 181, 0.6) var(--buffered-width), rgba(0, 125, 181, 0.2) var(--buffered-width));
+}
+
+input[type="range"]::-ms-thumb {
+    box-sizing: content-box;
+    border: 1px solid #007db5;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+input[type="range"]:active::-ms-thumb {
+    transform: scale(1.2);
+    background: #007db5;
+}
+
+  
